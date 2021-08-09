@@ -124,6 +124,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &28745333 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1050691228003563795, guid: 582f0a9a412b47c43aeb6697bef093b4,
+    type: 3}
+  m_PrefabInstance: {fileID: 156465107111055503}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &190109883
 GameObject:
   m_ObjectHideFlags: 0
@@ -718,7 +724,7 @@ PrefabInstance:
         type: 3}
       propertyPath: SpawnPos
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 28745333}
     - target: {fileID: 1050691228003394867, guid: 582f0a9a412b47c43aeb6697bef093b4,
         type: 3}
       propertyPath: m_Name
