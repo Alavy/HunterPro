@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 069d1e6e348e55446bdb89ed9b833802, type: 3}
+  m_Name: QK
+  m_EditorClassIdentifier: 
+  WeaponVariant: 0
+  WeaponIcon: {fileID: 8235679099027096395, guid: a70807825d05b8b428980bf9569c68c6,
+    type: 3}
+  MuzzleFlashParticlesFX: {fileID: 198738818486580698, guid: a97838465f875dd4fa7b02317e4f73e9,
+    type: 3}
+  ShotSFX: {fileID: 8300000, guid: 8c293270c986ca548bbad3f34af7101f, type: 3}
+  ReloadingSFX: {fileID: 8300000, guid: 78c9054f15e2ad54eb967fa297869ab6, type: 3}
+  EmptySFX: {fileID: 8300000, guid: 2f79ad7952b593347a5b597889ba9be9, type: 3}
+  ReadySFX: {fileID: 8300000, guid: a4edd16f431808d4299f55fda97fe95c, type: 3}
+  Shell: {fileID: 7921444751754248205, guid: ee295a9ac5a4fe444bced0c617863094, type: 3}
+  ShellsPoolSize: 3
+  ShellEjectingForce: 0.4
+  DamageMinimum: 90
+  DamageMaximum: 100
+  RigidBodyHitForce: 100
+  FireRate: 0.1
+  SpreadAmount: 0.001
+  Recoil: {x: -1.2, y: -0.05, z: 0}
+  MeleeAttackDistance: 0
+  MeleeDamagePoints: 0
+  MeleeRigidbodyHitForce: 0
+  MeleeHitFX: {fileID: 0}
+  BulletInitialVelocity: 360
+  Projectile: {fileID: 0}
+  ProjectilePoolSize: 1
+  GrenadePrefab: {fileID: 0}
+  ThrowForce: 1500

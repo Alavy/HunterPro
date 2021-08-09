@@ -1,0 +1,10 @@
+Gemsbock Antelope
+
+Walk           1-36
+Idle A        37-277
+Graze A      278-398
+Graze B      399-519
+Trot         520-537
+Run          538-551
+aggressive   552-650
+Attack       651-701

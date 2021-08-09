@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 069d1e6e348e55446bdb89ed9b833802, type: 3}
+  m_Name: Bow
+  m_EditorClassIdentifier: 
+  WeaponVariant: 7
+  WeaponIcon: {fileID: -4229777479135542251, guid: a70807825d05b8b428980bf9569c68c6,
+    type: 3}
+  MuzzleFlashParticlesFX: {fileID: 0}
+  ShotSFX: {fileID: 8300000, guid: 29f0deaf0b602aa44b644557924a1d25, type: 3}
+  ReloadingSFX: {fileID: 8300000, guid: 0db763e84d405c54e9cffcef7afd1eaa, type: 3}
+  EmptySFX: {fileID: 8300000, guid: 2f79ad7952b593347a5b597889ba9be9, type: 3}
+  ReadySFX: {fileID: 8300000, guid: 81134ed2276209f4bbfdcd2d3db060bf, type: 3}
+  Shell: {fileID: 0}
+  ShellsPoolSize: 1
+  ShellEjectingForce: 0
+  DamageMinimum: 70
+  DamageMaximum: 80
+  RigidBodyHitForce: 10
+  FireRate: 1
+  SpreadAmount: 0.01
+  Recoil: {x: -0.1, y: 0, z: 0}
+  MeleeAttackDistance: 0
+  MeleeDamagePoints: 0
+  MeleeRigidbodyHitForce: 0
+  MeleeHitFX: {fileID: 0}
+  BulletInitialVelocity: 360
+  Projectile: {fileID: 8708429696502315615, guid: c82626eb8f1fb9143a3f3b9f8f5f6424,
+    type: 3}
+  ProjectilePoolSize: 10
+  GrenadePrefab: {fileID: 0}
+  ThrowForce: 1500
